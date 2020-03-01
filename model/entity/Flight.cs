@@ -1,3 +1,4 @@
+using System;
 using System.Collections.Generic;
 
 namespace trpz_labs.model.entity
@@ -8,12 +9,33 @@ namespace trpz_labs.model.entity
 
         public string Name { get; set; }
 
+        public DateTime DepartureTime { get; set; }
+
+        public DateTime LastTimeForBuying { get; set; }
+
+        public TimeSpan DelayedTime { get; set; }
+
         public Status Status { get; set; }
 
         public Plane Plane { get; set; }
 
-        public List<Client> Passengers { get; set; }
+        public IList<Client> Passengers { get; set; }
 
-        public List<Ticket> Ticket { get; set; }
+        public IList<Ticket> Ticket { get; set; }
+
+        public Flight(int number, string name, DateTime departureTime, DateTime lastTimeForBuying, 
+            TimeSpan delayedTime, Status status, Plane plane, 
+            IList<Client> passengers, IList<Ticket> ticket)
+        {
+            Number = number;
+            Name = name;
+            DepartureTime = departureTime;
+            LastTimeForBuying = lastTimeForBuying;
+            DelayedTime = delayedTime;
+            Status = status;
+            Plane = plane;
+            Passengers = passengers;
+            Ticket = ticket;
+        }
     }
 }

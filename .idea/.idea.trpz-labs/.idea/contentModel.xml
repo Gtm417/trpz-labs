@@ -8,7 +8,14 @@
       <e p="App.xaml" t="Include" />
       <e p="App.xaml.cs" t="Include" />
       <e p="bin" t="ExcludeRecursive" />
-      <e p="db" t="Include" />
+      <e p="dao" t="Include">
+        <e p="ClientDAO.cs" t="Include" />
+        <e p="DaoImpl" t="Include">
+          <e p="ClientDaoImpl.cs" t="Include" />
+          <e p="FlightDaoImpl.cs" t="Include" />
+        </e>
+        <e p="FlightDAO.cs" t="Include" />
+      </e>
       <e p="MainWindow.xaml" t="Include" />
       <e p="MainWindow.xaml.cs" t="Include" />
       <e p="model" t="Include">
@@ -21,7 +28,9 @@
         </e>
         <e p="service" t="Include">
           <e p="FlightService.cs" t="Include" />
-          <e p="serviceImpl" t="Include" />
+          <e p="serviceImpl" t="Include">
+            <e p="FlightServiceImpl.cs" t="Include" />
+          </e>
         </e>
       </e>
       <e p="obj" t="ExcludeRecursive">

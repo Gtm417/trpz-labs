@@ -7,9 +7,4 @@
         <UseWPF>true</UseWPF>
     </PropertyGroup>
 
-    <ItemGroup>
-      <Folder Include="db" />
-      <Folder Include="model\service\serviceImpl" />
-    </ItemGroup>
-
 </Project>

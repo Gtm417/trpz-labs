@@ -9,5 +9,13 @@ namespace trpz_labs.model.entity
         public int Capacity { get; set; }
 
         public int CurrentCapacity { get; set; }
+
+        public Plane(string name, int number, int capacity, int currentCapacity)
+        {
+            Name = name;
+            Number = number;
+            Capacity = capacity;
+            CurrentCapacity = currentCapacity;
+        }
     }
 }
