@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ContentModelStore">
+    <e p="C:\Users\Tima\.Rider2019.3\system\extResources" t="IncludeRecursive" />
+    <e p="C:\Users\Tima\.Rider2019.3\system\resharper-host\local\Transient\ReSharperHost\v193\SolutionCaches\_trpz-labs.428381495.00" t="ExcludeRecursive" />
+    <e p="D:\КПИ\ТРПЗ\trpz-labs" t="IncludeRecursive">
+      <e p=".gitignore" t="Include" />
+      <e p="App.xaml" t="Include" />
+      <e p="App.xaml.cs" t="Include" />
+      <e p="bin" t="ExcludeRecursive" />
+      <e p="MainWindow.xaml" t="Include" />
+      <e p="MainWindow.xaml.cs" t="Include" />
+      <e p="obj" t="ExcludeRecursive">
+        <e p="Debug" t="Include">
+          <e p="netcoreapp3.0" t="Include">
+            <e p="App.g.cs" t="Include" />
+            <e p="MainWindow.g.cs" t="Include" />
+            <e p="trpz-labs.AssemblyInfo.cs" t="Include" />
+          </e>
+        </e>
+      </e>
+      <e p="packages" t="ExcludeRecursive" />
+      <e p="trpz-labs.csproj" t="IncludeRecursive" />
+      <e p="trpz-labs.sln" t="IncludeFlat" />
+    </e>
+  </component>
+</project>
