@@ -1,9 +1,9 @@
-﻿<Application x:Class="trpz_labs.App"
+﻿<Application x:Class="trpz_labs.view.App"
              xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
              xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
-             xmlns:local="clr-namespace:trpz_labs"
-             StartupUri="MainWindow.xaml">
+             xmlns:local="clr-namespace:trpz_labs.view"
+             StartupUri="view/MainWindow.xaml">
     <Application.Resources>
-         
+
     </Application.Resources>
 </Application>

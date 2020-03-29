@@ -5,6 +5,21 @@ namespace trpz_labs.model.entity
 {
     public class Flight
     {
+        public Flight(int number, string name, DateTime departureTime, DateTime lastTimeForBuying,
+            TimeSpan delayedTime, Status status, Plane plane,
+            IList<Client> passengers, IList<Ticket> ticket)
+        {
+            Number = number;
+            Name = name;
+            DepartureTime = departureTime;
+            LastTimeForBuying = lastTimeForBuying;
+            DelayedTime = delayedTime;
+            Status = status;
+            Plane = plane;
+            Passengers = passengers;
+            Ticket = ticket;
+        }
+
         public int Number { get; set; }
 
         public string Name { get; set; }
@@ -23,19 +38,10 @@ namespace trpz_labs.model.entity
 
         public IList<Ticket> Ticket { get; set; }
 
-        public Flight(int number, string name, DateTime departureTime, DateTime lastTimeForBuying, 
-            TimeSpan delayedTime, Status status, Plane plane, 
-            IList<Client> passengers, IList<Ticket> ticket)
+        public override string ToString()
         {
-            Number = number;
-            Name = name;
-            DepartureTime = departureTime;
-            LastTimeForBuying = lastTimeForBuying;
-            DelayedTime = delayedTime;
-            Status = status;
-            Plane = plane;
-            Passengers = passengers;
-            Ticket = ticket;
+            return
+                $"{nameof(Number)}: {Number}, {nameof(Name)}: {Name}, {nameof(DepartureTime)}: {DepartureTime}, {nameof(LastTimeForBuying)}: {LastTimeForBuying}, {nameof(DelayedTime)}: {DelayedTime}, {nameof(Status)}: {Status}";
         }
     }
 }

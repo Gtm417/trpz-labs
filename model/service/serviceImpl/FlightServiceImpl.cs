@@ -8,13 +8,13 @@ namespace trpz_labs.model.service.serviceImpl
 {
     public class FlightServiceImpl : FlightService
     {
-        private FlightDAO flightDao;
+        private readonly FlightDAO flightDao;
         private ClientDAO clientDao;
 
         public FlightServiceImpl()
         {
-            this.flightDao = new FlightDaoImpl();
-            this.clientDao = new ClientDaoImpl();
+            flightDao = new FlightDaoImpl();
+            clientDao = new ClientDaoImpl();
         }
 
         public IList<Flight> GetAllFlights()
@@ -22,20 +22,27 @@ namespace trpz_labs.model.service.serviceImpl
             return flightDao.FindAll();
         }
 
-        public IList<Client> GetAllPassengersByFlight(Flight flight)
+        // public IList<Client> GetAllPassengersByFlight(Flight flight)
+        // {
+        //     return clientDao.FindAllPassengersByFlight(flight);
+        // }
+
+        public void UpdateFlight(Flight flight)
         {
-            return clientDao.FindAllPassengersByFlight(flight);
+            flightDao.Update(flight);
         }
 
         public void SetLastBuyingTimeToFlight(Flight flight, DateTime dateTime)
         {
             flight.LastTimeForBuying = dateTime;
+            flightDao.Update(flight);
         }
 
         public void SetDelayedTime(Flight flight, TimeSpan timeSpan)
         {
             flight.DelayedTime = timeSpan;
             flight.DepartureTime = flight.DepartureTime.Add(timeSpan);
+            flightDao.Update(flight);
         }
     }
 }

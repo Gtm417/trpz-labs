@@ -5,8 +5,7 @@
     <e p="C:\Users\Tima\.Rider2019.3\system\resharper-host\local\Transient\ReSharperHost\v193\SolutionCaches\_trpz-labs.428381495.00" t="ExcludeRecursive" />
     <e p="D:\КПИ\ТРПЗ\trpz-labs" t="IncludeRecursive">
       <e p=".gitignore" t="Include" />
-      <e p="App.xaml" t="Include" />
-      <e p="App.xaml.cs" t="Include" />
+      <e p="Annotations.cs" t="Include" />
       <e p="bin" t="ExcludeRecursive" />
       <e p="dao" t="Include">
         <e p="ClientDAO.cs" t="Include" />
@@ -16,16 +15,6 @@
         </e>
         <e p="FlightDAO.cs" t="Include" />
       </e>
-      <e p="Diagrams" t="Include">
-        <e p="DiagramModelClases.dia" t="Include" />
-        <e p="DiagramModelClases.dia~" t="Include" />
-        <e p="Диаграма прецендентів.pdf" t="Include" />
-        <e p="Диаграма прецендентів.vsdx" t="Include" />
-        <e p="діаграма послідовності.bmp" t="Include" />
-        <e p="діаграма послідовності.vsdx" t="Include" />
-      </e>
-      <e p="MainWindow.xaml" t="Include" />
-      <e p="MainWindow.xaml.cs" t="Include" />
       <e p="model" t="Include">
         <e p="entity" t="Include">
           <e p="Client.cs" t="Include" />
@@ -44,9 +33,11 @@
       <e p="obj" t="ExcludeRecursive">
         <e p="Debug" t="Include">
           <e p="netcoreapp3.0" t="Include">
-            <e p="App.g.cs" t="Include" />
-            <e p="MainWindow.g.cs" t="Include" />
             <e p="trpz-labs.AssemblyInfo.cs" t="Include" />
+            <e p="view" t="Include">
+              <e p="App.g.cs" t="Include" />
+              <e p="MainWindow.g.cs" t="Include" />
+            </e>
           </e>
         </e>
       </e>
@@ -54,6 +45,24 @@
       <e p="README.md" t="Include" />
       <e p="trpz-labs.csproj" t="IncludeRecursive" />
       <e p="trpz-labs.sln" t="IncludeFlat" />
+      <e p="trpz-labs.sln.DotSettings" t="Include" />
+      <e p="view" t="Include">
+        <e p="App.xaml" t="Include" />
+        <e p="App.xaml.cs" t="Include" />
+        <e p="MainWindow.xaml" t="Include" />
+        <e p="MainWindow.xaml.cs" t="Include" />
+      </e>
+      <e p="viewModel" t="Include">
+        <e p="FlightViewModel.cs" t="Include" />
+      </e>
+      <e p="ZDiagrams" t="Include">
+        <e p="DiagramModelClases.dia" t="Include" />
+        <e p="DiagramModelClases.dia~" t="Include" />
+        <e p="Диаграма прецендентів.pdf" t="Include" />
+        <e p="Диаграма прецендентів.vsdx" t="Include" />
+        <e p="діаграма послідовності.bmp" t="Include" />
+        <e p="діаграма послідовності.vsdx" t="Include" />
+      </e>
     </e>
   </component>
 </project>

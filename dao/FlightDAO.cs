@@ -6,6 +6,7 @@ namespace trpz_labs.dao
     public interface FlightDAO
     {
         IList<Flight> FindAll();
-        
+
+        Flight Update(Flight flight);
     }
 }
