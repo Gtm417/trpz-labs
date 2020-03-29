@@ -6,9 +6,9 @@ namespace trpz_labs.model.service
 {
     public interface FlightService
     {
-        IList<Flight> GetAllFlights();
+        IEnumerable<Flight> GetAllFlights();
         void UpdateFlight(Flight flight);
-        void SetLastBuyingTimeToFlight(Flight flight, DateTime dateTime);
-        void SetDelayedTime(Flight flight, TimeSpan delayedTime);
+        // void SetLastBuyingTimeToFlight(Flight flight, DateTime dateTime);
+        // void SetDelayedTime(Flight flight, TimeSpan delayedTime);
     }
 }

@@ -7,17 +7,21 @@
       <e p=".gitignore" t="Include" />
       <e p="Annotations.cs" t="Include" />
       <e p="bin" t="ExcludeRecursive" />
-      <e p="dao" t="Include">
-        <e p="DaoImpl" t="Include">
-          <e p="FlightDaoImpl.cs" t="Include" />
+      <e p="data" t="Include">
+        <e p="AeroportContext.cs" t="Include" />
+        <e p="repository" t="Include">
+          <e p="IFlightRepository.cs" t="Include" />
+          <e p="repositoryImpl" t="Include">
+            <e p="FlightRepositoryImpl.cs" t="Include" />
+          </e>
         </e>
-        <e p="FlightDAO.cs" t="Include" />
+        <e p="UnitOfWork.cs" t="Include" />
       </e>
       <e p="Diagrams" t="Include">
         <e p="DiagramModelClases.dia~" t="Include" />
       </e>
       <e p="factory" t="Include">
-        <e p="DaoFactory.cs" t="Include" />
+        <e p="RepositoryFactory.cs" t="Include" />
       </e>
       <e p="model" t="Include">
         <e p="entity" t="Include">
