@@ -2,3 +2,9 @@ bin/
 obj/
 /packages/
 trpz-labs.sln.DotSettings
+.idea
+trpz-labs.sln.DotSettings.user
+db.lock
+.dtbcache
+.suo
+storage.ide
