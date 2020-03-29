@@ -8,12 +8,13 @@
       <e p="Annotations.cs" t="Include" />
       <e p="bin" t="ExcludeRecursive" />
       <e p="dao" t="Include">
-        <e p="ClientDAO.cs" t="Include" />
         <e p="DaoImpl" t="Include">
-          <e p="ClientDaoImpl.cs" t="Include" />
           <e p="FlightDaoImpl.cs" t="Include" />
         </e>
         <e p="FlightDAO.cs" t="Include" />
+      </e>
+      <e p="factory" t="Include">
+        <e p="DaoFactory.cs" t="Include" />
       </e>
       <e p="model" t="Include">
         <e p="entity" t="Include">

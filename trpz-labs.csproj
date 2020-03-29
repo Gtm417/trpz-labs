@@ -8,7 +8,7 @@
     </PropertyGroup>
 
     <ItemGroup>
-        <ApplicationDefinition Remove="App.xaml"/>
+        <ApplicationDefinition Remove="App.xaml" />
         <ApplicationDefinition Include="view\App.xaml">
             <Generator>MSBuild:Compile</Generator>
         </ApplicationDefinition>
