@@ -13,6 +13,9 @@
         </e>
         <e p="FlightDAO.cs" t="Include" />
       </e>
+      <e p="Diagrams" t="Include">
+        <e p="DiagramModelClases.dia~" t="Include" />
+      </e>
       <e p="factory" t="Include">
         <e p="DaoFactory.cs" t="Include" />
       </e>
@@ -58,7 +61,6 @@
       </e>
       <e p="ZDiagrams" t="Include">
         <e p="DiagramModelClases.dia" t="Include" />
-        <e p="DiagramModelClases.dia~" t="Include" />
         <e p="Диаграма прецендентів.pdf" t="Include" />
         <e p="Диаграма прецендентів.vsdx" t="Include" />
         <e p="діаграма послідовності.bmp" t="Include" />
