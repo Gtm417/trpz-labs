@@ -1,3 +1,4 @@
+using System;
 using System.Collections.ObjectModel;
 using System.ComponentModel;
 using System.Runtime.CompilerServices;
@@ -17,6 +18,13 @@ namespace trpz_labs.viewModel
         public FlightViewModel(FlightService flightService)
         {
             _flightService = flightService;
+            foreach (Flight flight in flightService.GetAllFlights())
+            {
+                // foreach (Client pa in flight.Passengers)
+                // {
+                //     Console.WriteLine(pa);
+                // }
+            }
             Flights = new ObservableCollection<Flight>(flightService.GetAllFlights());
         }
 

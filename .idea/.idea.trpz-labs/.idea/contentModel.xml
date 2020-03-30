@@ -1,6 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ContentModelStore">
+    <e p="C:\Users\Tima\.Rider2019.3\config\consoles\db" t="IncludeRecursive" />
+    <e p="C:\Users\Tima\.Rider2019.3\config\extensions" t="IncludeRecursive" />
     <e p="C:\Users\Tima\.Rider2019.3\system\extResources" t="IncludeRecursive" />
     <e p="C:\Users\Tima\.Rider2019.3\system\resharper-host\local\Transient\ReSharperHost\v193\SolutionCaches\_trpz-labs.428381495.00" t="ExcludeRecursive" />
     <e p="D:\КПИ\ТРПЗ\trpz-labs" t="IncludeRecursive">
@@ -22,6 +24,11 @@
       </e>
       <e p="factory" t="Include">
         <e p="RepositoryFactory.cs" t="Include" />
+      </e>
+      <e p="Migrations" t="Include">
+        <e p="20200330071309_FlightsSelect.cs" t="Include" />
+        <e p="20200330071309_FlightsSelect.Designer.cs" t="Include" />
+        <e p="AirportContextModelSnapshot.cs" t="Include" />
       </e>
       <e p="model" t="Include">
         <e p="entity" t="Include">
